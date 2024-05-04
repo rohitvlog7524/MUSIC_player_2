@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html>
+<body>
+<h1>Deftsoft limited</h1>
+
+
+<p>Deftsoft is known for the programming ideas.</p>
+<button onmouseover="mouseOver()" id="demo">Info</button>
+<button onmouseover1="mouseOver1()" id="demo1">Carrier</button>
+<button onmouseover2="mouseOver2()" id="demo2">Query</button>
+<button onmouseover3="mouseOver3()" id="demo3">Contact</button>
+<button onmouseover4="mouseOver4()" id="demo4">LogIn</button>
+
+
+<script>
+  document.getElementById("demo").onmouseover = function() {mouseOver()};
+  document.getElementById("demo").onmouseout = function() {mouseOut()};
+  document.getElementById("demo1").onmouseover = function() {mouseOver1()};
+  document.getElementById("demo1").onmouseout = function() {mouseOut1()};
+  document.getElementById("demo2").onmouseover = function() {mouseOver2()};
+  document.getElementById("demo2").onmouseout = function() {mouseOut2()};
+  document.getElementById("demo3").onmouseover = function() {mouseOver3()};
+  document.getElementById("demo3").onmouseout = function() {mouseOut3()};
+  document.getElementById("demo4").onmouseover = function() {mouseOver4()};
+  document.getElementById("demo4").onmouseout = function() {mouseOut4()};
+  function mouseOver() {
+    document.getElementById("demo").style.color = "green";
+  }
+  
+  function mouseOut() {
+    document.getElementById("demo").style.color = "black";
+  }
+  function mouseOver1() {
+    document.getElementById("demo1").style.color = "green";
+  }
+  
+  function mouseOut1() {
+    document.getElementById("demo1").style.color = "black";
+  }
+  function mouseOver2() {
+    document.getElementById("demo2").style.color = "green";
+  }
+  
+  function mouseOut2() {
+    document.getElementById("demo2").style.color = "black";
+  }
+  function mouseOver3() {
+    document.getElementById("demo3").style.color = "green";
+  }
+  
+  function mouseOut3() {
+    document.getElementById("demo3").style.color = "black";
+  }
+  function mouseOver4() {
+    document.getElementById("demo4").style.color = "green";
+  }
+  
+  function mouseOut4() {
+    document.getElementById("demo4").style.color = "black";
+  }
+  </script>
+
+</body>
+</html>
